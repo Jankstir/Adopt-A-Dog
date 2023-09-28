@@ -1,0 +1,162 @@
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #C9C2C1;
+   font-family: 'Candal', serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: #34568B;
+  height: 66px;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+header .logo {
+  float: left;
+  height: inherit;
+  margin-left: 2em;
+}
+header .logo-text {
+  margin: 9px;
+  font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+  color: white;
+}
+
+header ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  position: relative;
+}
+
+header ul li a {
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background: #FF6F61;
+  transition: 0.1s;
+  border-radius: 10px; 
+}
+
+/* adopt dog page*/
+.individual-dog {
+  display: flex;
+  align-items: left;
+  padding: 20px;
+}
+
+.dog-image {
+  max-width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.dog-description {
+  max-width: 50%;
+}
+
+form{
+	padding: 20px;
+	
+}
+
+/* Search stuff implemet later */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.search-container select,
+.search-container input {
+  margin-right: 0.5rem;
+}
+/*All the dog stuff even the button*/
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dog-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+.dog-card img {
+  float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+  
+}
+
+.adopt-button{
+  background-color: grey;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 75px; /* Adjust the logo size as needed /
+  margin-right: 10px; / Add some space between the logo and the title */
+}
+
+/*Footer stuff*/
+.footer {
+  background: #34568B;
+  color: white;
+  height: 400px;
+  position: relative;
+}
+
+.footer .footer-content {
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+  color: white;
+}
+
+
+.footer .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
